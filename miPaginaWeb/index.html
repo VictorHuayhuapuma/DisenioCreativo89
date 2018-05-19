@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+   	
+<title>Inicio</title>
+</head>
+	<link rel="stylesheet" type="text/css" href="sliderengine/amazingslider-1.css"> 
+	<link rel="stylesheet" href="animate/animate.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="CSS_PAGINA/inicio.css">
+	<script type="text/javascript" src="horaJS/relog_fecha.js"></script>
+<body>
+
+	<nav class="navbar navbar-default navbar-fixed-top ">
+	  <div class="row column-superior">
+		  <div class="container">
+        <div class="col-md-4 col-xs-0"></div>
+        <div class="col-md-6 col-xs-9 ">
+	<div class="fecha">
+	    <div id="diaSemana" class="diaSemana "></div>
+	    <div id="dia" class="dia"></div><div class="dia"> de</div>
+	    <div id="mes" class="mes"></div><div class="mes"> del</div>
+	    <div id="year" class="year"></div>
+	</div>
+	
+	<div class="reloj hidden-xs"><!--es para que solo la hora desaparezca a cierto tamaño de la pantalla-->
+	    <div id="horas" class="horas "></div><div class="horas ">:</div>
+	    <div id="minutos" class="minutos "></div><div class="minutos ">:</div>
+	    <div id="segundos" class="segundos "></div>
+	    <div id="ampm" class="ampm"></div>
+	</div>
+
+		</div>
+        <div class="col-md-2 col-xs-3 hidden-xs animated fadeInLeftBig">
+			<span class="fa-stack fa-lg ">
+               <i class="fa fa-stack-2x"></i>
+               <i class="fa fa-phone fa-stack-1x"></i>
+            </span>
+			<a href="#" class="numero "><b>982 627 422</b></a> 
+	    </div>
+      </div>
+	</div>
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+	 
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="index.html"><img src="img/logo.png" width="248" height="44" id="logo" class=" animated fadeInRightBig"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+	   <li><a href="index.html" id="inicio" class="inicio animated fadeInRightBig"><b>INICIO</b></a></li>
+        <li class="dropdown">
+          <a href="index.html" id="servisios" class="dropdown-toggle animated fadeInRightBig" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><b>SERVICIOS</b> <span class="caret"></span></a>
+          <ul class="dropdown-menu animated fadeInRightBig"><!--lista de servicios tiene su propio animated-->
+            <li><a href="servicios-logos-a-medida.html">Logos a medida</a></li>
+			<li role="separator" class="divider"></li>
+            <li><a href="servicios-banner.html">Banners</a></li>
+			<li role="separator" class="divider"></li>  
+            <li><a href="servicios-volantes.html">Volantes</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="servicios-trajetas-de-presentacion.html">Tarjetas de presentación</a></li>
+			<li role="separator" class="divider"></li> 
+			<li><a href="servicios-tripticos.html">Tripticos</a></li>
+		    <li role="separator" class="divider"></li> 
+			<li><a href="#" onClick="afiches()">Afiches</a></li>
+			<li role="separator" class="divider"></li> 
+			<li><a href="#" onClick="montajes()">Montajes fotográficos</a></li>
+			<li role="separator" class="divider"></li>   
+          </ul>
+        </li>
+		  <li><a href="trabajos.html" id="trabajos" class="animated fadeInRightBig"><b>TRABAJOS</b></a></li>
+		  <li><a href="contacto.html" id="contactos" class="animated fadeInRightBig"><b>CONTÁCTO</b></a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav><br><br><br><br>
+	<script>
+	var afiches = function(){
+		return alert("En construcción :) ");
+	}
+	 
+	 function montajes(){
+		 return alert("En construcción :) ");
+	 }
+	</script>
+	
+	<!-- Insert to your webpage where you want to display the slider -->
+    <div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:1366px;margin:0px auto 0px;">
+        <div id="amazingslider-1" class="animated fadeInLeftBig" style="display:block;position:relative;margin:0 auto;">
+            <ul class="amazingslider-slides" style="display:none;">
+                <li><img src="images/foto_2.png" />
+                </li>
+                <li><img src="images/foto_4.png" />
+                </li>
+                <!--<li><img src="images/foto_1.png" />
+                </li>-->
+                <li><img src="images/foto_3.png" />
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- End of body section HTML codes -->
+	 <br>
+	<h2><center><p class="parrafo1"><b>¿QUÉ NESECITAS CREAR?</b></p></center></h2>
+	<br><br>
+	<div class="container">
+	<div class="row">
+      <div class="col-md-4 lapiz">
+		  <center><a href="servicios-logos-a-medida.html"><img src="img/581.png" alt="" width="168" height="168" class="foto_lapiz img-responsive"></a></center><br>
+		  <center><b>Logos a medida</b></center>
+	  </div>
+      <div class="col-md-4 banner">
+		  <center><a href="servicios-banner.html"><img src="img/banner.png" alt="" class="foto_banner img-responsive"></a></center><br>
+		  <center><b>Banners a tu gusto</b></center>
+		</div>
+      <div class="col-md-4 volante1">
+		  <center><a href="servicios-volantes.html"><img src="img/volante1.png" alt=""  class="foto_volante1 img-responsive" ></a></center><br>
+		  <center><b>Volantes creativos</b></center></div>
+    </div><br><br>
+	
+    
+	<div class="row">
+      <div class="col-md-4 col-xs-3"><br>
+		  <center><img src="img/AiPsId.png" alt="" class="img-responsive animated infinite bounce">
+		  </center><br>
+		</div>
+      <div class="col-md-4 col-xs-6 tarjeta"><br>
+		  <center><a href="servicios-trajetas-de-presentacion.html"><img src="img/tarjeta.png" alt="" class="foto_tarjeta img-responsive"></a></center><br>
+		  <center><b>Tarjetas de presentación</b></center>
+		</div>
+      <div class="col-md-4 col-xs-3"><br>
+		  <center><img src="img/foto.png" alt="" class="img-responsive animated infinite bounce"></center>
+		</div>
+    </div><br><br>
+	
+	
+	<div class="row">
+      <div class="col-md-4 triptico">
+	  <center><a href="servicios-tripticos.html"><img src="img/triptico.png" alt="triptico" class="foto_triptico img-responsive"></a>
+	  </center><br>
+	  <center><b>Tripticos informativos</b></center>
+	  </div>
+      <div class="col-md-4 afiches1">
+		  <center><a href=""><img src="img/afiches1.png" alt="" class="foto_afiches1 img-responsive"></a></center><br>
+		  <center><b>Afiches</b></center>
+		</div>
+      <div class="col-md-4 fotomontajes">
+		  <center><a href=""><img src="img/981_3b2eb.jpg" alt="" class="foto_fotomontajes img-responsive"></a></center><br>
+		  <center><b>Fotomotajes</b></center>
+	  </div>
+    </div><br>
+	</div><br>
+	
+	
+	<div class="container-fluid foco foco2">
+  <div class="row"><br>
+  <div class="col-md-3"></div>
+  <div class="col-md-6">
+	  <center>
+		  <p class="frase"><b>"Ser bueno en los negocios es el tipo de arte más fascinante"</b></p><br>
+		  <center><p><font size="+2"><b>(Andy Warhol. Artista.)</b></font></p></center>
+	  </center>
+  </div>
+  <div class="col-md-3"></div>
+  </div>
+</div><br><br>
+	
+	<div class="row">
+       <div class="col-md-4"><br>
+		   <hr>
+	   </div>
+       <div class="col-md-4">
+	   <center><h2><p class="algunos-diseños"><b>ALGUNOS DISEÑOS</b></p></h2></center><br>
+	   </div>
+       <div class="col-md-4"><br>
+		   <hr>
+	   </div>
+     </div>
+	
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+	<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <center><img src="img/GIGANTOGRAFIA.png" alt="GIGANTOGRAFIA" class="img-responsive animated rubberBand"></center>
+      <center><div class="carousel-caption">
+       
+      </div>
+	</center>
+    </div>
+    <div class="item">
+      <center><img src="img/volantesemin.png" alt="volantesemin" class="img-responsive animated rubberBand"></center>
+      <div class="carousel-caption">
+       
+      </div>
+    </div>
+	   <div class="item">
+      <center><img src="img/tarjeta_con_mi_logo_para_imprimir.png" alt="volantesemin" class="img-responsive animated rollIn"></center>
+      <div class="carousel-caption">
+       
+      </div>
+    </div>
+	  
+	   <div class="item">
+      <center><img src="img/FOTO_SLIDER.png" alt="volantesemin" class="img-responsive animated rollIn"></center>
+      <div class="carousel-caption">
+       
+      </div>
+    </div>
+	  
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+		
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+	
+
+<br>
+<br>
+<div class="morado">
+<div class="container">
+<div class="row">
+  <div class="col-md-4">
+	  <center><img src="img/Lightbulb.gif" alt="" class="img-responsive foco3"></center><br>
+	  <center><font color="#FFFFFF" size="+2"><b>Tus ideas son importantes</b></font><br><font color="#FFFFFF" size="+1">Coméntanos tus necesidades,
+preferencias y objetivos.</font></center>
+  </div>
+  <div class="col-md-4">
+  <center><img src="img/mano_tablet.gif" alt="" class="img-responsive mano_tablet"></center><center><br>
+	  <font color="#FFFFFF" size="+2"><b>Conformidad al 100%</b></font><br><font color="#FFFFFF" size="+1">Se desarrollará tu proyecto hasta tu aprobación.</font></center>
+	  
+  </div>
+  <div class="col-md-4"><center><img src="img/monitor_logo.gif" alt="" class="img-responsive monitor_logo"></center><center><br>
+	  <font color="#FFFFFF" size="+2"><b>¡Terminado!</b></font><br><font color="#FFFFFF" size="+1">Una vez aprobado tu proyecto final,
+te enviamos todo listo.</font></center><br></div>
+</div>
+</div>
+</div>
+	
+	
+	
+	
+	<footer>
+		<div class="row footer">
+			<div class="container">
+          <div class="col-md-6"><br><br>
+		  <font color="#FFFFFF"><p class="modal-footer"><b>Victor Huayhuapuma Guzman</b><br>
+		        <b>Movil: 982 627 422</b><br>
+			    <b>Email: v.huayhuapuma@gmail.com</b></p>
+			    <br>
+		  </font>
+		  </div>
+          <div class="col-md-6">
+		  <img src="img/nave-espacial.gif" alt="nave-espacial" width="318" height="196" class="img-responsive pull-right">
+		  </div>
+			</div>
+        </div>
+	</footer>
+	
+	
+	
+	
+	<script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+	  
+	   <script src="sliderengine/jquery.js"></script>
+    <script src="sliderengine/amazingslider.js"></script>
+     <script src="sliderengine/initslider-1.js"></script>
+	
+	
+</body>
+</html>

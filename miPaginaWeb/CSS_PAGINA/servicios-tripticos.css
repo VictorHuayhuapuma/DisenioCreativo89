@@ -1,0 +1,321 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*--------------------------------*/
+.visible-xs-inline{
+	background-color:black;
+	color:lawngreen;
+	padding-top: 11px;
+}
+
+.enlace{
+	color: white;
+}
+
+.enlace:hover{
+	color:lawngreen;
+	text-decoration: none;
+}
+
+.contacto{
+	color: red;
+}
+
+.contacto:hover{
+	color: red;
+	text-decoration: none;
+}
+/*---------------------------*/
+
+
+.column-superior{
+	background-color:lawngreen;
+	/*background-color: black;*/
+	padding: -1px 0px -1px 0px;
+}
+
+.navbar-default {/*PARA QUE LA BARRA DE MENU SE PONGA DE COLOR NEGRA*/
+    background-color: black;
+	/*border: none;/*para borrar los bordes*/
+	border-bottom: 2px solid lawngreen;/*para que solo se pinte de verde la parte inferior de la barra delmenu*/
+}
+
+
+/*---------para cambiar el color de las letras del despegable a verde-------------*/
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: lawngreen;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover{
+    color: lawngreen;
+	background-color: #943a3a;
+}
+
+/*--------fin para cambiar el color de las letras del despegable a verde----------*/
+
+/*-----COMIENZO DEL IMPUT QUE DA LA HORA--------------*/
+/*.hora{
+	background-color:lawngreen;
+	border:0px;
+	padding: 5;
+	font: bolder;
+}
+
+input{
+	    margin: 7px;
+	font-size: initial;
+	font-weight:bold;
+}*/
+	.fecha{
+	display: inline-block;
+	}
+	
+	.reloj{
+		display: inline-block;
+	}
+.diaSemana,.dia, .mes, .year{
+	    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+		color: black;
+		display: inline-block;
+		margin: 7px 3px 0px 0px;
+	}
+
+	.horas, .minutos, .segundos, .ampm{
+		font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+		color: black;
+		display: inline-block;
+	
+	}
+
+/*--------------FIN DEL CAMBIO DEL INPUT QUE DA LA HORA-----------------------*/
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: black;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+
+
+
+
+
+/*-------------número telefónico del menu-------------------*/
+.numero{
+	color: black;
+}
+
+.numero:hover{
+	color: red;
+	text-decoration: none;
+}
+/*--------------------fin de número telefónico del menu----------------------*/
+
+
+.navbar-default .navbar-nav >li>a {/*para cambiar de color las letras del menu a blanco*/
+    color:whitesmoke;
+	font-size: 17px;
+}
+
+.navbar-default .navbar-nav >li>a:hover {/*para cambiar de color las letras del menu a verde*/
+    color:lawngreen;
+}
+
+
+
+/*---------------------------------*/
+.navbar-default .navbar-nav .contacto {/*para cambiar de color las letra TRABAJOS del menu a rojo*/
+    color:red;
+}
+
+.navbar-default .navbar-nav .contacto:hover {/*para cambiar de color la letra TRABAJOS del menu a rojo*/
+    color:red;
+}
+/*----------------------------------*/
+
+
+.pulicidad_esmitrabajo{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+
+/*----------FIN DEL MENU----------------*/
+
+
+.parrafo1{
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+.lapiz:hover{
+	background-color: aquamarine;
+}
+
+.banner:hover{
+	background-color: aquamarine;
+}
+
+.volante1:hover{
+	background-color: aquamarine;
+}
+
+.tarjeta:hover{
+	background-color: aquamarine;
+}
+
+
+
+.triptico:hover{
+	background-color: aquamarine;
+}
+
+
+
+.afiches1:hover{
+	background-color: aquamarine;
+}
+
+.fotomotajes:hover{
+	background-color: aquamarine;
+}
+
+.foco2{
+	background-color: #00FF00;
+}
+
+.frase{
+	color:red;
+	font-size: 35px;
+font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+.morado{
+	background-color: darkmagenta;
+}
+
+.foco3{
+	width: 250px;
+	height: 250px;
+}
+
+.mano_tablet{
+	width: 360px;
+	height: 250px;
+}
+
+.monitor_logo{
+	width: 280px;
+	height: 250px;
+}
+
+.footer{
+	background: black;
+}
+
+/*------------SLIDER----------*/
+
+.fondoCarrusel{
+	background-color: black;
+}
+
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color:lawngreen;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000 \9;
+    background-color: red;
+    border: 1px solid #fff;
+}
+/*---------FIN DE SLIDER---------*/
+
+/*-------------animaciones--------------------*/
+
+
+#logo {
+	animation-duration: 0.5;
+}
+
+#inicio {
+  animation-duration: 1s;
+  /*animation-delay: ;*/
+}
+
+#servisios {
+  animation-duration: 1.3s;
+  /*animation-delay: ;*/
+}
+
+#trabajos {
+  animation-duration: 1.6s;
+  /*animation-delay: ;*/
+}
+
+#contactos {
+  animation-duration: 1.9s;
+  /*animation-delay: ;*/
+}
+/*///////////////////////////*/
+
+/*///////////////////////////////*/
+
+.foco3{
+	-webkit-transition:all .4s ease;/*con esta propiedad hace que cuando el cursor pase por cada boton
+    este demore en cambiar su tamaño(OJO ESTA PROPIEDAD SOLO HACE DEMORAR EN HACER QUE SUBIR MAS NO EN AHCER SUBIR)*/
+     -moz-transition:all .4s ease;
+     -ms-transition:all .4s ease;
+     transition:all .4s ease; 
+}
+.foco3:hover{
+	transform: scale(1.2)
+}
+
+
+
+.mano_tablet{
+	 -webkit-transition:all .4s ease;/*con esta propiedad hace que cuando el cursor pase por cada boton
+    este demore en cambiar su tamaño(OJO ESTA PROPIEDAD SOLO HACE DEMORAR EN HACER QUE SUBIR MAS NO EN AHCER SUBIR)*/
+     -moz-transition:all .4s ease;
+     -ms-transition:all .4s ease;
+     transition:all .4s ease; 
+}
+.mano_tablet:hover{
+	transform: scale(1.2);
+}
+
+.monitor_logo{
+	-webkit-transition:all .4s ease;/*con esta propiedad hace que cuando el cursor pase por cada boton
+    este demore en cambiar su tamaño(OJO ESTA PROPIEDAD SOLO HACE DEMORAR EN HACER QUE SUBIR MAS NO EN AHCER SUBIR)*/
+     -moz-transition:all .4s ease;
+     -ms-transition:all .4s ease;
+     transition:all .4s ease; 
+}
+.monitor_logo:hover{
+	transform: scale(1.2);
+}
+
+/*/////////////////////////////////////*/

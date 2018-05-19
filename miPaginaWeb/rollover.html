@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>rollover</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="jquery/jquery_331.js"></script>
+</head>
+<body>
+
+	<style>
+	body{
+		background-color: black;
+	}
+     .imgOtras{
+     	width: 65px;
+     }
+
+     .otras-imagenes .imgOtras{
+     	display: inline-block;
+     }
+     /*---------------------------*/
+
+     .imgPrincipal{
+     	width: 350px;
+     }
+
+     .imagen-principal{
+     	width: 350px;
+     	max-width: 100%;
+     	height: auto;
+     	display: none;
+     }
+     /*----------------------*/
+     .seleccionado{
+     	width: 65px;
+     	border: 4px solid red;
+     }
+     /*-----------------------*/
+	</style>
+	
+	<div class="container">
+	<center><div class="imagen-principal">
+		<img src="img/semin_logo.png" alt=""  class="imgPrincipal img-responsive">
+		<img src="img/logo_dos.png" alt="" class="imgPrincipal img-responsive">
+		<img src="img/logo_tres.png" alt=""  class="imgPrincipal img-responsive">
+		<img src="img/logo_cuatro.png" alt=""  class="imgPrincipal img-responsive">
+		<img src="img/logo_doseno_grafico.png" alt=""  class="imgPrincipal img-responsive">
+	</div></center>
+<br>
+	<center><div class="otras-imagenes">
+		<img src="img/semin_logo.png" alt="" class="imgOtras img-circle">
+		<img src="img/logo_dos.png" alt="" class="imgOtras img-circle">
+		<img src="img/logo_tres.png" alt="" class="imgOtras img-circle">
+		<img src="img/logo_cuatro.png" alt="" class="imgOtras img-circle">
+		<img src="img/logo_doseno_grafico.png" alt="" class="imgOtras img-circle">
+	</div></center>
+	</div>
+
+	<script>
+     $(".imagen-principal").fadeIn(1000);
+     $(".otras-imagenes").fadeIn(1000);
+
+     var todasImagenes = $(".otras-imagenes img");
+
+     todasImagenes.eq(0).addClass("seleccionado");
+
+
+     $(".imagen-principal img:eq(0)").nextAll().hide();
+
+     todasImagenes.click(function(){
+     	var indice = $(this).index();
+
+     	todasImagenes.removeClass("seleccionado");
+     	$(this).addClass("seleccionado");
+
+     	$(".imagen-principal img").eq(indice).show(500).siblings().hide(500);
+     });
+	</script>
+</body>
+</html>

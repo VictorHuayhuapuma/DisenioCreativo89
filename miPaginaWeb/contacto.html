@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+   	
+<title>Contacto</title>
+</head> 
+	<script src="jquery/jquery_331.js"></script>
+	<link rel="stylesheet" href="animate/animate.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="CSS_PAGINA/contacto.css">
+	<script type="text/javascript" src="horaJS/relog_fecha.js"></script>
+	
+<body>
+
+	<nav class="navbar navbar-default navbar-fixed-top ">
+	  	    <div class="row column-superior">
+		  <div class="container">
+        <div class="col-md-4 col-xs-0"></div>
+        <div class="col-md-6 col-xs-9 ">
+	<div class="fecha">
+	    <div id="diaSemana" class="diaSemana"></div>
+	    <div id="dia" class="dia"></div><div class="dia"> de</div>
+	    <div id="mes" class="mes"></div><div class="mes"> del</div>
+	    <div id="year" class="year"></div>
+	</div>
+	
+	<div class="reloj hidden-xs">
+	    <div id="horas" class="horas"></div><div class="horas">:</div>
+	    <div id="minutos" class="minutos"></div><div class="minutos">:</div>
+	    <div id="segundos" class="segundos"></div>
+	    <div id="ampm" class="ampm"></div>
+	</div>
+
+		</div>
+        <div class="col-md-2 col-xs-3 hidden-xs animated fadeInLeftBig">
+			<span class="fa-stack fa-lg ">
+               <i class="fa fa-stack-2x"></i>
+               <i class="fa fa-phone fa-stack-1x"></i>
+            </span>
+			<a href="#" class="numero"><b>982 627 422</b></a> 
+	    </div>
+      </div>
+	</div>
+		
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+
+    <div class="navbar-header ">
+      <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>-->
+      <a href="index.html"><img src="img/logo.png" width="248" height="44" id="logo" class=" animated fadeInRightBig"></a>
+		
+	<div class="visible-xs-inline pull-left animated fadeInRightBig">
+		<ul class="miMenu">
+	    <li><a href="#" class="contacto"><b>CONTÁCTO</b></a></li>
+		<li><a href="index.html" class="enlace" id="inicio"><b>INICIO</b></a></li>
+		<li><a href="servicios-logos-a-medida.html" class="enlace" id="servicio"><b>SERVICOS</b></a></li>
+		<li><a href="trabajos.html" class="enlace" id="trabajo"><b>TRABAJOS</b></a></li>
+		
+		</ul>
+			
+	</div>
+    </div>
+	  
+	  <script>
+	$(".miMenu").find("li").first().nextAll().hide();
+		  $(".miMenu").mouseenter(function(){
+			  if($(".miMenu li:last").is(":hidden")){
+				 $(this).find("li").first().nextAll().fadeIn(500);
+				 }
+			  
+		  });
+		  
+		  $(".miMenu").mouseleave(function(){
+			  $(this).find("li").first().nextAll().fadeOut(500);
+		  });
+		
+	</script>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+	   <li><a href="index.html"  class="inicio animated fadeInRightBig"><b>INICIO</b></a></li>
+        <li class="dropdown">
+          <a href="servicios-logos-a-medida.html" id="servisios"  class="dropdown-toggle animated fadeInRightBig" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><b>SERVICIOS</b> <span class="caret"></span></a>
+          <ul class="dropdown-menu animated fadeInRightBig"><!--lista de servicios tiene su propio animated-->
+            <li><a href="servicios-logos-a-medida.html">Logos a medida</a></li>
+			<li role="separator" class="divider"></li>
+            <li><a href="servicios-banner.html">Banners</a></li>
+			<li role="separator" class="divider"></li>  
+            <li><a href="servicios-volantes.html">Volantes</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="servicios-trajetas-de-presentacion.html">Tarjetas de presentación</a></li>
+			<li role="separator" class="divider"></li> 
+			<li><a href="servicios-tripticos.html">Tripticos</a></li>
+		    <li role="separator" class="divider"></li> 
+			<li><a href="#">Afiches</a></li>
+			<li role="separator" class="divider"></li> 
+			<li><a href="#">Montajes fotográficos</a></li>
+			<li role="separator" class="divider"></li>   
+          </ul>
+        </li>
+		   <li><a href="trabajos.html" id="trabajos" class="trabajos animated fadeInRightBig"><b>TRABAJOS</b></a></li>
+		  <li><a href="contacto.html" id="contactos" class="animated fadeInRightBig"><b>CONTÁCTO</b></a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav><br><br><br><br><br>
+	<!-- Insert to your webpage where you want to display the slider -->
+   
+	
+	
+	<div class="row">
+	<div class="col-md-12">
+	<center><img src="img/contacto.jpg" class="img-responsive animated flip" alt="contacto"></center>
+	</div>
+	</div><br>
+
+	<hr>
+	 <div class="row black">
+    <div class="col-md-4">
+     <center><h3><i class="	fa fa-comment-o fa-5x animated infinite pulse"></i></h3></center> <br>
+     <center><p class="mensaje-celular-mail"><b>Mensaje:</b> <br>
+  <font size="+2"><b>Envianos tu mensaje</b></font></p></center>
+    </div>
+    <div class="col-md-4">
+        <center><h3><i class="fa fa-mobile fa-5x animated infinite pulse"></i></h3></center> <br>
+         <center><p class="mensaje-celular-mail"><b>Celular:</b> <br>
+			 <font size="+2"><b>982-627-422</b></font></p>
+			 <img src="img/whatsapp-logo-1.png" alt="whatsapp-logo-1" width="33" height="33" class="animated infinite bounce">
+	     </center><br>
+    </div>
+    <div class="col-md-4">
+      <center><h3><i class="fa fa-envelope-open-o fa-5x animated infinite pulse"></i></h3></center> <br>
+    <center><p class="mensaje-celular-mail"><b>E-mail:</b> <br>
+      <font size="+2" color="white" class="diseniocreativo"><b><u>diseniocreativo@gmail.com</u></b></font><br>
+     </p></center>
+    </div>
+  </div> 
+<!--FORMULARIO-->
+	<script src="https://cdn.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.4827" type="text/javascript"></script>
+<script type="text/javascript"> JotForm.init(function(){ JotForm.clearFieldOnHide="disable"; /*INIT-END*/
+}); JotForm.prepareCalculationsOnTheFly([null,null,{"name":"enviar","qid":"2","text":"ENVIAR","type":"control_button"},null,{"name":"escribeTu","qid":"4","text":"Escribe tu mensaje","type":"control_textarea"},null,null,{"name":"correoElectronico","qid":"7","subLabel":"ejemplo@ejemplo.com","text":"Correo Electronico","type":"control_email"},{"name":"nombresY","qid":"8","text":"Nombres y Apellidos","type":"control_textbox"},{"name":"disenoCreativo","qid":"9","text":"DISENO CREATIVO","type":"control_head"},{"description":"","name":"celular10","qid":"10","subLabel":"","text":"Celular / Whatsapp","type":"control_textbox"}]); setTimeout(function() {
+JotForm.paymentExtrasOnTheFly([null,null,{"name":"enviar","qid":"2","text":"ENVIAR","type":"control_button"},null,{"name":"escribeTu","qid":"4","text":"Escribe tu mensaje","type":"control_textarea"},null,null,{"name":"correoElectronico","qid":"7","subLabel":"ejemplo@ejemplo.com","text":"Correo Electronico","type":"control_email"},{"name":"nombresY","qid":"8","text":"Nombres y Apellidos","type":"control_textbox"},{"name":"disenoCreativo","qid":"9","text":"DISENO CREATIVO","type":"control_head"},{"description":"","name":"celular10","qid":"10","subLabel":"","text":"Celular / Whatsapp","type":"control_textbox"}]);}, 20); </script>
+<link href="https://cdn.jotfor.ms/static/formCss.css?3.3.4827" rel="stylesheet" type="text/css" />
+<link type="text/css" media="print" rel="stylesheet" href="https://cdn.jotfor.ms/css/printForm.css?3.3.4827" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/nova.css?3.3.4827" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/themes/CSS/5495488a700cc478508b4567.css?themeRevisionID=59d3cbddcf3bfe07f15e6152"/>
+<style type="text/css">
+@import url('https://shots.jotform.com/elton/genericTheme.css');n@import url(https://fonts.googleapis.com/css?family=Abel); .form-label-left{ width:150px; } .form-line{ padding-top:12px; padding-bottom:12px; } .form-label-right{ width:150px; } .form-all{ width:580px; color:rgb(255, 255, 255) !important; font-family:'Roboto'; font-size:18px; } .form-radio-item label, .form-checkbox-item label, .form-grading-label, .form-header{ color: #2E2E2E; } </style> <style type="text/css" id="form-designer-style"> /* Injected CSS Code */
+/*PREFERENCES STYLE*/ 
+	/*.fondo-formulario{background-image: url(img/diseno_creativo_facil_rapido.gif);background-repeat: no-repeat; background-repeat:repeat-y;background-position:center;}*/.fondo-formulario{background-color: black;}.form-all { font-family: Roboto, sans-serif; } .form-all .qq-upload-button, .form-all .form-submit-button, .form-all .form-submit-reset, .form-all .form-submit-print { font-family: Roboto, sans-serif; } .form-all .form-pagebreak-back-container, .form-all .form-pagebreak-next-container { font-family: Roboto, sans-serif; } .form-header-group { font-family: Roboto, sans-serif; } .form-label { font-family: Roboto, sans-serif; } .form-label.form-label-auto { display: inline-block; float: left; text-align: left; } .form-line { margin-top: 12px; margin-bottom: 12px; } .form-all { width: 580px; } .form-label-left, .form-label-right, .form-label-left.form-label-auto, .form-label-right.form-label-auto { width: 150px; } .form-all { font-size: 18px } .form-all .qq-upload-button, .form-all .qq-upload-button, .form-all .form-submit-button, .form-all .form-submit-reset, .form-all .form-submit-print { font-size: 18px } .form-all .form-pagebreak-back-container, .form-all .form-pagebreak-next-container { font-size: 18px } .supernova .form-all, .form-all { background-color: rgba(39, 38, 38, 0.56); border: 1px solid transparent; } .form-all { color: rgb(255, 255, 255); } .form-header-group .form-header { color: rgb(255, 255, 255); } .form-header-group .form-subHeader { color: rgb(255, 255, 255); } .form-label-top, .form-label-left, .form-label-right, .form-html, .form-checkbox-item label, .form-radio-item label { color: rgb(255, 255, 255); } .form-sub-label { color: 1a1a1a; } .supernova { background-color: rgb(255, 255, 255); } .supernova body { background: transparent; } .form-textbox, .form-textarea, .form-radio-other-input, .form-checkbox-other-input, .form-captcha input, .form-spinner input { background-color: rgba(255, 255, 255, 0.83); } .supernova { height: 100%; background-repeat: repeat; background-attachment: scroll; background-position: center top; } .supernova { background-image: url("https://www.jotform.com/uploads/huayhuapuma/form_files/diseno_creativo_facil_rapido.5a9358c5ce5ba0.61833230.gif"); } #stage { background-image: url("https://www.jotform.com/uploads/huayhuapuma/form_files/diseno_creativo_facil_rapido.5a9358c5ce5ba0.61833230.gif"); } .form-all { background-image: url("https://www.jotform.com/uploads/huayhuapuma/form_files/fondo.5a9354aea714b8.77125208.png"); background-repeat: repeat; background-attachment: scroll; background-position: center top; } .ie-8 .form-all:before { display: none; } .ie-8 { margin-top: auto; margin-top: initial; } /*PREFERENCES STYLE*//*__INSPECT_SEPERATOR__*/ /* Injected CSS Code */
+</style> 
+	<div class="row">
+	<div class="col-md-12 fondo-formulario">
+	<center><form class="jotform-form" action="https://submit.jotformz.com/submit/80557927807671/" method="post" name="form_80557927807671" id="80557927807671" accept-charset="utf-8"> <input type="hidden" name="formID" value="80557927807671" /> <div class="form-all"> <ul class="form-section page-section"> <li id="cid_9" class="form-input-wide" data-type="control_head"> <div class="form-header-group "> <div class="header-text httal htvam"> <h1 id="header_9" class="form-header" data-component="header"> DISEÑO CREATIVO </h1> <div id="subHeader_9" class="form-subHeader"> Comunícate con nosotros para mas información. </div> </div> </div> </li> <li class="form-line jf-required" data-type="control_textbox" id="id_8"> <label class="form-label form-label-left form-label-auto" id="label_8" for="input_8"> Nombres y Apellidos <span class="form-required"> * </span> </label> <div id="cid_8" class="form-input jf-required"> <input type="text" id="input_8" name="q8_nombresY" data-type="input-textbox" class="form-textbox validate[required]" size="25" value="" placeholder=" " data-component="textbox" required="" /> </div> </li> <li class="form-line jf-required" data-type="control_email" id="id_7"> <label class="form-label form-label-left form-label-auto" id="label_7" for="input_7"> Correo Electrónico <span class="form-required"> * </span> </label> <div id="cid_7" class="form-input jf-required"> <span class="form-sub-label-container" style="vertical-align:top;"> <input type="email" id="input_7" name="q7_correoElectronico" class="form-textbox validate[required, Email]" size="25" value="" placeholder=" " data-component="email" required="" /> <label class="form-sub-label" for="input_7" style="min-height:13px;"> ejemplo@ejemplo.com </label> </span> </div> </li> <li class="form-line jf-required" data-type="control_textbox" id="id_10"> <label class="form-label form-label-left form-label-auto" id="label_10" for="input_10"> Celular / Whatsapp <span class="form-required"> * </span> </label> <div id="cid_10" class="form-input jf-required"> <input type="text" id="input_10" name="q10_celular10" data-type="input-textbox" class="form-textbox validate[required]" size="25" value="" placeholder=" " data-component="textbox" required="" /> </div> </li> <li class="form-line jf-required" data-type="control_textarea" id="id_4"> <label class="form-label form-label-left form-label-auto" id="label_4" for="input_4"> Escribe tu mensaje <span class="form-required"> * </span> </label> <div id="cid_4" class="form-input jf-required"> <textarea id="input_4" class="form-textarea validate[required]" name="q4_escribeTu" cols="28" rows="6" data-component="textarea" required=""></textarea> </div> </li> <li class="form-line" data-type="control_button" id="id_2"> <div id="cid_2" class="form-input-wide"> <div style="text-align:center;" class="form-buttons-wrapper"> <button id="input_2" type="submit" class="form-submit-button" data-component="button"> ENVIAR </button> </div> </div> </li> <li style="display:none"> Should be Empty: <input type="text" name="website" value="" /> </li> </ul> </div> <script> JotForm.showJotFormPowered = "new_footer"; </script> <input type="hidden" id="simple_spc" name="simple_spc" value="80557927807671" /> <script type="text/javascript"> document.getElementById("si" + "mple" + "_spc").value = "80557927807671-80557927807671"; </script> <div class="formFooter-heightMask"> </div> 
+</form></center>
+<script type="text/javascript">JotForm.ownerView=true;</script>
+	</div>
+	</div>
+<!--FIN DE FORMULARIO-->	
+	
+<div class="morado">
+<div class="container">
+<div class="row">
+  <div class="col-md-4">
+	  <center><img src="img/Lightbulb.gif" alt="" class="img-responsive foco3 animated infinite pulse"></center><br>
+	  <center><font color="#FFFFFF" size="+2"><b>Tus ideas son importantes</b></font><br><font color="#FFFFFF" size="+1">Coméntanos tus necesidades,
+preferencias y objetivos.</font></center>
+  </div>
+  <div class="col-md-4">
+  <center><img src="img/mano_tablet.gif" alt="" class="img-responsive mano_tablet animated infinite pulse"></center><center><br>
+	  <font color="#FFFFFF" size="+2"><b>Conformidad al 100%</b></font><br><font color="#FFFFFF" size="+1">Se desarrollará tu proyecto hasta tu aprobación.</font></center>
+	  
+  </div>
+  <div class="col-md-4"><center><img src="img/monitor_logo.gif" alt="" class="img-responsive monitor_logo animated infinite pulse"></center><center><br>
+	  <font color="#FFFFFF" size="+2"><b>¡Terminado!</b></font><br><font color="#FFFFFF" size="+1">Una vez aprobado tu proyecto final,
+te enviamos todo listo.</font></center><br></div>
+</div>
+</div>
+</div>
+	
+	
+	
+	
+<footer>
+		<div class="row footer">
+			<div class="container">
+          <div class="col-md-6"><br><br>
+		  <font color="#FFFFFF">
+			  <p class="modal-footer"><b>Victor Huayhuapuma Guzman</b><br>
+		        <b>Movil: 982 627 422</b><br>
+			    <b>Email: v.huayhuapuma@gmail.com</b>
+			    <br><br>
+			    <b>Este sitio web <br>fue diseñado y desarrollado por Victor Huayhuapuma Guzman</b>
+			  </p>
+		  </font>
+		  </div>
+          <div class="col-md-6">
+		  <img src="img/nave-espacial.gif" alt="nave-espacial" width="318" height="196" class="img-responsive pull-right">
+		  </div>
+			</div>
+        </div>
+	</footer>
+	<script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+	  
+	   <script src="sliderengine/jquery.js"></script>
+    <script src="sliderengine/amazingslider.js"></script>
+     <script src="sliderengine/initslider-1.js"></script>
+	
+	
+</body>
+</html>
